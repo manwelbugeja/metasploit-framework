@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.appcompat.widget.Toolbar android:theme="@style/ThemeOverlay.AppCompat.ActionBar" android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:elevation="4.0dip" app:popupTheme="@style/ThemeOverlay.AppCompat" />
-    <com.keepassdroid.view.FileNameView android:id="@id/file_select" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar" />
-    <ListView android:id="@id/file_list" android:layout_width="0.0sp" android:layout_height="0.0sp" />
-</RelativeLayout>
