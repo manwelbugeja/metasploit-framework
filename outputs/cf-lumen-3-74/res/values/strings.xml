@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="string" name="ampm_circle_radius_multiplier">0.19</item>
+    <string name="app_details">"Copyright © 2011–2020 – Chainfire
+Twitter: @ChainfireXDA
+Tap to visit XDA thread"</string>
+    <string name="app_name">CF.lumen</string>
+    <string name="app_website_url">http://forum.xda-developers.com/showthread.php?p=51779367</string>
+    <string name="brightness_auto">Automatic brightness</string>
+    <string name="brightness_darken">Darken filter</string>
+    <string name="brightness_enable">Adjust brightness</string>
+    <string name="brightness_menu">Brightness</string>
+    <string name="brightness_notice">For consistent results, if you configure brightness to be adjusted for <i>one</i> filter, you should configure it for <i>all three</i> (day, sundown, and sleep) filters</string>
+    <string name="calibrate_bright">Bright</string>
+    <string name="calibrate_bright_description">On or above this value day mode will be activated</string>
+    <string name="calibrate_current">Current</string>
+    <string name="calibrate_dark">Dark</string>
+    <string name="calibrate_dark_description">On or below this value sleep mode will be activated</string>
+    <string name="calibrate_wake">Wake</string>
+    <string name="calibrate_wake_description">On or above this value sundown mode will be activated, if in sleep mode</string>
+    <string name="cflumen_driver_detect_compatibility">If the screen just turned red, it is likely <i>Compatibility</i> mode is the best performing mode.</string>
+    <string name="cflumen_driver_detect_description">Attempt to determine if <i>Compatibility</i> or <i>Performance</i> mode is faster</string>
+    <string name="cflumen_driver_detect_performance">If the screen just turned red, it is likely <i>Performance</i> mode is the best performing mode.</string>
+    <string name="cflumen_driver_detect_title">Driver: CF.lumen: Determine best mode</string>
+    <string name="cflumen_driver_detect_unknown">It could not be determined which driver mode is likely to be the best performing one.</string>
+    <string name="cflumen_driver_detecting">Detecting capabilities</string>
+    <string name="cflumen_driver_failure">The advanced CF.lumen driver could not be loaded. For stability reasons, a reboot is now recommended!</string>
+    <string name="cflumen_driver_loading">Loading advanced CF.lumen driver</string>
+    <string name="channel_service">Service running</string>
+    <string name="channel_service_low">Service running (low priority)</string>
+    <string name="channel_update">Update required</string>
+    <item type="string" name="circle_radius_multiplier">0.82</item>
+    <item type="string" name="circle_radius_multiplier_24HourMode">0.85</item>
+    <string name="common_google_play_services_enable_button">Enable</string>
+    <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text">"%1$s won't run without Google Play services, which are missing from your device."</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text">"%1$s won't run without Google Play services, which are not supported by your device."</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_google_play_services_update_text">"%1$s won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text">"%1$s won't run without Google Play services, which are currently updating."</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="day_of_week_label_typeface">sans-serif-light</string>
+    <string name="day_picker_description">Month grid of days</string>
+    <string name="deleted_key">%1$s deleted</string>
+    <string name="detecting_location">Detecting location …</string>
+    <string name="detecting_location_failed">Could not detect location!</string>
+    <string name="dialog_brightness_title">Select brightness</string>
+    <string name="dialog_calibrate_title">Select adjustment</string>
+    <string name="dialog_colorblind_title">Enhance for …</string>
+    <string name="dialog_gray_notice">"0.000 equals grayscale
+1.000 equals full saturation"</string>
+    <string name="dialog_kelvin_title">Select temperature</string>
+    <string name="dialog_rgb_title">Select adjustment</string>
+    <string name="dialog_secure_question">Is the square below the color green?</string>
+    <string name="donate_popup_description">Please consider upgrading to <b>CF.lumen Pro</b>! It supports my developments, removes all nags, and adds convenient notification, startup and remote control features!</string>
+    <string name="donate_popup_title">Upgrade</string>
+    <string name="done_label">Done</string>
+    <string name="driver_update_needed">Driver update needed!</string>
+    <string name="error_not_rooted">Could not acquire root access. <b>CF.lumen</b> is defaulting to <b>rootless</b>" operation. We won't look nearly as good as with root, and not all features will be available, but it's better than nothing!"</string>
+    <string name="error_not_rooted_29">Could not acquire root access. Unfortunately, <b>CF.lumen</b> does not support <b>rootless</b> operation on Android 10+.</string>
+    <string name="error_notification_icon_29">This feature generally does not work on Android 10 or newer. It is recommended to keep it set to <i>Always</i>.</string>
+    <string name="error_notifications">If you change this setting to anything other than <i>Always</i>, Android may stop <b>CF.lumen</b>"'s background service at any time, causing the app to stop working.
+
+Alternatively, you can make the notification invisible by deselecting "<i>Settings -> Apps -> CF.lumen -> Show Notifications</i>.</string>
+    <string name="error_uninstall">The <i>old</i>" CF.lumen needs to be uninstalled and the device rebooted before continuing. Uninstall normally, or through a custom recovery? If you don't know, select "<i>Normal</i>.</string>
+    <string name="error_update_reboot">The <b>CF.lumen</b> driver needs to be updated. Please reboot your device.</string>
+    <string name="fade_sensor">Sensor</string>
+    <string name="fade_sleep">Sleep</string>
+    <string name="fade_sunrise">Sunrise</string>
+    <string name="fade_sunset">Sunset</string>
+    <string name="filter_amber_description_cflumen" formatted="false">Display luminance in 100% red and 75% green</string>
+    <string name="filter_amber_description_kcal" formatted="false">Display 100% of the red and 75% of the green channel</string>
+    <string name="filter_amber_description_pccrgb" formatted="false">Display 100% of the red and 75% of the green channel</string>
+    <string name="filter_amber_description_rootless">Amber overlay</string>
+    <string name="filter_amber_title">Amber</string>
+    <string name="filter_auto_description_cflumen">Apply color filter based on other configuration options</string>
+    <string name="filter_auto_description_kcal">Apply color filter based on other configuration options</string>
+    <string name="filter_auto_description_pccrgb">Apply color filter based on other configuration options</string>
+    <string name="filter_auto_description_rootless">Apply color filter based on other configuration options</string>
+    <string name="filter_auto_title">Automatic</string>
+    <string name="filter_blue_description_cflumen">Display luminance in the blue channel only</string>
+    <string name="filter_blue_description_kcal">Display blue channel only</string>
+    <string name="filter_blue_description_pccrgb">Display blue channel only</string>
+    <string name="filter_blue_description_rootless">Increase blue channel prominence</string>
+    <string name="filter_blue_title">Blue</string>
+    <string name="filter_colorblind_description_cflumen">Enhance display for colorblindness (experimental)</string>
+    <string name="filter_colorblind_description_kcal">KCAL driver does not support this filter</string>
+    <string name="filter_colorblind_description_pccrgb">PCC/RGB driver does not support this filter</string>
+    <string name="filter_colorblind_description_rootless">Rootless driver does not support this filter</string>
+    <string name="filter_colorblind_deuter">Deuteranopia/anomaly</string>
+    <string name="filter_colorblind_notice">Please note this option is actually an <i>experimental</i> feature of Android itself - <b>CF.lumen</b> only switches it on and off for you.</string>
+    <string name="filter_colorblind_pro">Protanopia/anomaly</string>
+    <string name="filter_colorblind_title">Colorblindness</string>
+    <string name="filter_colorblind_tri">Tritanopia/anomaly</string>
+    <string name="filter_disabled_description_cflumen">Do not apply any color filter</string>
+    <string name="filter_disabled_description_kcal">Do not apply any color filter</string>
+    <string name="filter_disabled_description_pccrgb">Do not apply any color filter</string>
+    <string name="filter_disabled_description_rootless">Do not apply any color filter</string>
+    <string name="filter_disabled_title">Disabled</string>
+    <string name="filter_gray_description_cflumen">Display luminance in all channels</string>
+    <string name="filter_gray_description_kcal">Display luminance in all channels</string>
+    <string name="filter_gray_description_pccrgb">PCC/RGB driver does not support this filter</string>
+    <string name="filter_gray_description_rootless">Rootless driver does not support this filter</string>
+    <string name="filter_gray_title">Grayscale/Saturation</string>
+    <string name="filter_green_description_cflumen">Display luminance in the green channel only</string>
+    <string name="filter_green_description_kcal">Display green channel only</string>
+    <string name="filter_green_description_pccrgb">Display green channel only</string>
+    <string name="filter_green_description_rootless">Increase green channel prominence</string>
+    <string name="filter_green_title">Green</string>
+    <string name="filter_invert_description_cflumen">Invert colors</string>
+    <string name="filter_invert_description_kcal">Invert colors</string>
+    <string name="filter_invert_description_pccrgb">PCC/RGB driver does not support this filter</string>
+    <string name="filter_invert_description_rootless">Rootless driver does not support this filter</string>
+    <string name="filter_invert_title">Invert</string>
+    <string name="filter_kelvin_description_cflumen">Adjust color temperature</string>
+    <string name="filter_kelvin_description_kcal">Adjust color temperature</string>
+    <string name="filter_kelvin_description_pccrgb">Adjust color temperature</string>
+    <string name="filter_kelvin_description_rootless">Adjust color temperature</string>
+    <string name="filter_kelvin_title">Temperature</string>
+    <string name="filter_red_description_cflumen">Display luminance in the red channel only</string>
+    <string name="filter_red_description_kcal">Display red channel only</string>
+    <string name="filter_red_description_pccrgb">Display red channel only</string>
+    <string name="filter_red_description_rootless">Increase red channel prominence</string>
+    <string name="filter_red_title">Red</string>
+    <string name="filter_rgba_description_cflumen">Manual channel adjustment</string>
+    <string name="filter_rgba_description_kcal">Manual channel adjustment</string>
+    <string name="filter_rgba_description_pccrgb">Manual channel adjustment</string>
+    <string name="filter_rgba_description_rootless">Manual overlay adjustment</string>
+    <string name="filter_rgba_title">Custom</string>
+    <string name="filter_salmon_description_cflumen" formatted="false">Display luminance in 100% red, 50% green, and 50% blue</string>
+    <string name="filter_salmon_description_kcal" formatted="false">Display 100% of the red, 50% of the green, and 50% of the blue channel</string>
+    <string name="filter_salmon_description_pccrgb" formatted="false">Display 100% of the red, 50% of the green, and 50% of the blue channel</string>
+    <string name="filter_salmon_description_rootless">Salmon overlay</string>
+    <string name="filter_salmon_title">Salmon</string>
+    <string name="follow_nothanks">No thanks</string>
+    <string name="follow_popup_desc">Stay up to date with my developments, follow me on Twitter</string>
+    <string name="follow_popup_title">Follow me</string>
+    <string name="follow_pref_desc">Stay up to date with my developments</string>
+    <string name="follow_pref_title">Follow me on Twitter</string>
+    <string name="follow_twitter">Twitter</string>
+    <string name="format_filter_brightness">[ Brightness: %.3f ]</string>
+    <string name="format_filter_brightness_auto">[ Brightness: Automatic ]</string>
+    <string name="format_filter_mode">[ Filter: %s ]</string>
+    <string name="format_filter_mode_kelvin">[ Filter: %1$s: %2$d K ]</string>
+    <string name="format_filter_mode_rgb">[ Filter: %1$s: R=%2$.3f G=%3$.3f B=%4$.3f ]</string>
+    <string name="generic_cancel">Cancel</string>
+    <string name="generic_clear">Clear</string>
+    <string name="generic_close">Close</string>
+    <string name="generic_no">No</string>
+    <string name="generic_ok">OK</string>
+    <string name="generic_save">Save</string>
+    <string name="generic_yes">Yes</string>
+    <string name="hour_picker_description">Hours circular slider</string>
+    <string name="install_normal">Normal</string>
+    <string name="install_recovery">Recovery</string>
+    <string name="installing">Installing …</string>
+    <string name="item_is_selected">%1$s selected</string>
+    <string name="loading">Loading …</string>
+    <string name="minute_picker_description">Minutes circular slider</string>
+    <string name="no_overlay_permission">CF.lumen is currently not allowed to draw over other apps, but this is needed to function. In the next screen, please enable drawing over other apps for CF.lumen. (If already enabled, turn it off and on again)</string>
+    <string name="no_usagestats_permission">CF.lumen is currently not allowed to access app usage statistics, but this is needed to function. In the next screen, please enable usage access for CF.lumen.</string>
+    <string name="no_write_settings_permission">CF.lumen is currently not allowed to modify system settings, but this is needed to function. In the next screen, please enable modifying system settings for CF.lumen. (If already enabled, turn it off and on again)</string>
+    <string name="notification_button_disable">Disable</string>
+    <string name="notification_button_enable">Enable</string>
+    <string name="notification_button_none">Not available</string>
+    <string name="notification_button_options">Options</string>
+    <string name="notification_button_purchase">Upgrade to Pro</string>
+    <string name="notification_button_sleep">Sleep</string>
+    <string name="notification_button_wake">Wake</string>
+    <string name="notification_consider_purchase">Please consider upgrading to Pro</string>
+    <string name="notification_day">Daytime mode</string>
+    <string name="notification_disabled">Disabled</string>
+    <string name="notification_drag_options">Tap + hold + drag down for options</string>
+    <string name="notification_master">Master mode</string>
+    <string name="notification_sleep">Sleep mode</string>
+    <string name="notification_sundown">Sundown mode</string>
+    <item type="string" name="numbers_radius_multiplier_inner">0.6</item>
+    <item type="string" name="numbers_radius_multiplier_normal">0.81</item>
+    <item type="string" name="numbers_radius_multiplier_outer">0.83</item>
+    <string name="pro_required">Pro version required</string>
+    <string name="radial_numbers_typeface">sans-serif</string>
+    <string name="rebooting">"Rebooting …
+
+If this message remains longer than a minute, please reboot manually!"</string>
+    <string name="remote_control_error_location_not_set">Please set your location in CF.lumen before using remote control</string>
+    <string name="remote_control_error_not_pro">The Pro version of CF.lumen is required for remote control</string>
+    <string name="sans_serif">sans-serif</string>
+    <string name="select_day">Select month and day</string>
+    <string name="select_hours">Select hours</string>
+    <string name="select_minutes">Select minutes</string>
+    <string name="select_year">Select year</string>
+    <item type="string" name="selection_radius_multiplier">0.16</item>
+    <string name="settings_calibrate_description">Different devices report different light values, adjust the values we respond to here</string>
+    <string name="settings_calibrate_title">Calibrate</string>
+    <string name="settings_category_light_sensor">Light Sensor</string>
+    <string name="settings_category_market">Chainfire</string>
+    <string name="settings_category_misc">Miscellaneous</string>
+    <string name="settings_category_notifications">Notifications</string>
+    <string name="settings_category_settings">Settings</string>
+    <string name="settings_donate_description">Support development, remove nags, add convenient notification, startup and remote control features</string>
+    <string name="settings_donate_title">Upgrade to Pro</string>
+    <string name="settings_driver_cflumen">CF.lumen (best quality)</string>
+    <string name="settings_driver_cflumen_mode_anti_flicker">Anti-flicker (may crash)</string>
+    <string name="settings_driver_cflumen_mode_compatibility">Compatibility</string>
+    <string name="settings_driver_cflumen_mode_not_supported">Advanced modes not supported on your device</string>
+    <string name="settings_driver_cflumen_mode_performance">Performance (possible artifacts, may crash)</string>
+    <string name="settings_driver_cflumen_mode_title">Driver: CF.lumen: Mode</string>
+    <string name="settings_driver_description">Visit the XDA thread for details about the available drivers</string>
+    <string name="settings_driver_kcal">KCAL (best performance)</string>
+    <string name="settings_driver_kcal_gamma_title">Driver: KCAL: Gamma correction</string>
+    <string name="settings_driver_mdp_gamma_description_off">[ Correction not needed ]</string>
+    <string name="settings_driver_mdp_gamma_description_on">[ Correction required ]</string>
+    <string name="settings_driver_mdp_gamma_message">Is the tint of the screen currently more red, or more yellow?</string>
+    <string name="settings_driver_mdp_gamma_red">Red</string>
+    <string name="settings_driver_mdp_gamma_title">Driver: MDP: Gamma correction</string>
+    <string name="settings_driver_mdp_gamma_yellow">Yellow</string>
+    <string name="settings_driver_pccrgb">PCC/RGB (best performance)</string>
+    <string name="settings_driver_pccrgb_gamma_title">Driver: PCCRGB: Gamma correction</string>
+    <string name="settings_driver_rootless">Rootless (non-root)</string>
+    <string name="settings_driver_title">Driver</string>
+    <string name="settings_fade_description">Adjust the time it takes to transition between filter states</string>
+    <string name="settings_fade_title">Filter fade speed</string>
+    <string name="settings_fade_title_dialog">Select speed</string>
+    <string name="settings_filter_day_description">Set the color filter to use during the day</string>
+    <string name="settings_filter_day_title">Daytime color filter</string>
+    <string name="settings_filter_master_description">Set master color filter mode</string>
+    <string name="settings_filter_master_not_automatic">The master filter mode must be set to automatic for this setting to have any effect</string>
+    <string name="settings_filter_master_title">Master filter mode</string>
+    <string name="settings_filter_sleep_description">Set the color filter to use during sleep period</string>
+    <string name="settings_filter_sleep_title">Sleep color filter</string>
+    <string name="settings_filter_sundown_description">Set the color filter to use when the sun is down</string>
+    <string name="settings_filter_sundown_title">Sundown color filter</string>
+    <string name="settings_freeload_description">Enable Pro features without actually purchasing the Pro version</string>
+    <string name="settings_freeload_title">Freeload</string>
+    <string name="settings_install_description">Install CF.lumen driver</string>
+    <string name="settings_install_title">Install driver</string>
+    <string name="settings_light_bright_description">Force day mode in bright light</string>
+    <string name="settings_light_bright_title">Bright light</string>
+    <string name="settings_light_sleep_dark_description">Force sleep mode in very low light</string>
+    <string name="settings_light_sleep_dark_title">Sleep in the dark</string>
+    <string name="settings_light_sleep_sundown_only_description">Only trigger sleep mode when the sun is down</string>
+    <string name="settings_light_sleep_sundown_only_description_disabled">Sleep in the dark disabled</string>
+    <string name="settings_light_sleep_sundown_only_title">During sundown only</string>
+    <string name="settings_light_wake_description">Force sundown mode in medium light, during sleep hours</string>
+    <string name="settings_light_wake_title">Wake from sleep</string>
+    <string name="settings_location_description_degrees" formatted="false">[ %.2f N, %.2f E ]</string>
+    <string name="settings_location_description_follow_enabled">[ Auto-update enabled ]</string>
+    <string name="settings_location_description_none">None</string>
+    <string name="settings_location_description_sun" formatted="false">[ Sun up: %s - %s ]</string>
+    <string name="settings_location_description_unknown">[ Unknown ]</string>
+    <string name="settings_location_description_update">Tap to update. Needed to determine sunrise and sunset.</string>
+    <string name="settings_location_follow_title">Auto-update location</string>
+    <string name="settings_location_not_set">Please set location first!</string>
+    <string name="settings_location_title">Location</string>
+    <string name="settings_market">All my apps</string>
+    <string name="settings_market_description">View all my apps available on Google Play</string>
+    <string name="settings_notification_always">Always</string>
+    <string name="settings_notification_demand">When active</string>
+    <string name="settings_notification_icon_disabled_message">This setting does not have any effect while notification mode is set to never</string>
+    <string name="settings_notification_icon_title">Notification icon mode</string>
+    <string name="settings_notification_never">Never</string>
+    <string name="settings_notification_title">Notification mode</string>
+    <string name="settings_sleep_end_description">Time when sleep period ends</string>
+    <string name="settings_sleep_end_title">Sleep: End time</string>
+    <string name="settings_sleep_start_description">Time when sleep period starts</string>
+    <string name="settings_sleep_start_title">Sleep: Start time</string>
+    <string name="settings_sleep_wake_alarm_description">Wake up when an alarm goes off - does not work on all phones</string>
+    <string name="settings_sleep_wake_alarm_title">Wake from alarm</string>
+    <string name="settings_startup_description">Activate CF.lumen automatically after booting</string>
+    <string name="settings_startup_title">Launch on boot</string>
+    <string name="settings_theme_dark">Holo: Dark</string>
+    <string name="settings_theme_device">Device Default: Dark</string>
+    <string name="settings_theme_device_light">Device Default: Light</string>
+    <string name="settings_theme_device_light_dab">Device Default: Light, dark bar</string>
+    <string name="settings_theme_light">Holo: Light</string>
+    <string name="settings_theme_light_dab">Holo: Light, dark bar</string>
+    <string name="settings_theme_material_dark">Material: Dark</string>
+    <string name="settings_theme_material_light">Material: Light</string>
+    <string name="settings_theme_material_light_dab">Material: Light, dark bar</string>
+    <string name="settings_theme_title">Theme</string>
+    <string name="settings_theme_title_dialog">Select theme</string>
+    <string name="settings_uninstall_description">Uninstall CF.lumen driver. Please do this before applying any firmware updates!</string>
+    <string name="settings_uninstall_title">Uninstall driver</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <item type="string" name="text_size_multiplier_inner">0.14</item>
+    <item type="string" name="text_size_multiplier_normal">0.17</item>
+    <item type="string" name="text_size_multiplier_outer">0.11</item>
+    <string name="time_placeholder">--</string>
+    <string name="time_separator">:</string>
+    <string name="title_activity_filter_select">Select filter</string>
+    <string name="title_activity_map">Select approximate location</string>
+    <string name="toast_temp_disable">Disabling color filters for the next 60 minutes</string>
+    <string name="toast_temp_sleep">Forcing sleep mode for the next 60 minutes</string>
+    <string name="toast_temp_wake">Disabling sleep mode for the next 60 minutes</string>
+    <string name="uninstalling">Uninstalling …</string>
+    <string name="warning_selinux">It has been detected that <b>SELinux</b> is running in <b>Enforcing</b> mode, but you are not using <b>SuperSU</b> or <b>Magisk</b> for root. This may lead to <b>CF.lumen</b> not working as expected.</string>
+    <string name="welcome">Welcome! This app presents you with a potentially overwhelming amount of options. To get started, all you need to do is set the <i>Location</i> and (optionally) the <i>Launch on boot</i> options!</string>
+    <string name="year_picker_description">Year list</string>
+</resources>

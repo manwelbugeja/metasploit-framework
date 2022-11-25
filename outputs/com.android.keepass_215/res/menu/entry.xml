@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@android:drawable/ic_lock_lock" android:id="@id/menu_lock" android:title="@string/menu_lock" app:showAsAction="ifRoom" />
+    <item android:id="@id/menu_toggle_pass" android:title="@string/menu_showpass" app:showAsAction="ifRoom" />
+    <item android:id="@id/menu_donate" android:title="@string/menu_donate" app:showAsAction="ifRoom" />
+    <item android:id="@id/menu_goto_url" android:title="@string/menu_url" app:showAsAction="ifRoom" />
+    <item android:id="@id/menu_copy_user" android:title="@string/menu_copy_user" app:showAsAction="ifRoom" />
+    <item android:id="@id/menu_copy_pass" android:title="@string/menu_copy_pass" app:showAsAction="ifRoom" />
+</menu>

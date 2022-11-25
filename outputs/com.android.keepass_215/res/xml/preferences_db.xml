@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference app:enabled="false" app:key="@string/algorithm_key" app:title="@string/algorithm" />
+    <EditTextPreference app:key="@string/rounds_key" app:negativeButtonText="@string/entry_cancel" app:persistent="false" app:positiveButtonText="@string/entry_save" app:title="@string/rounds" />
+</PreferenceScreen>

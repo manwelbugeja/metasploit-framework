@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center|left" android:id="@id/labelR1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="R" />
+        <View android:layout_width="@dimen/activity_horizontal_margin" android:layout_height="fill_parent" />
+        <SeekBar android:id="@id/sliderR" android:layout_width="0.0px" android:layout_height="wrap_content" android:minHeight="36.0dip" android:layout_weight="1.0" />
+        <View android:layout_width="@dimen/activity_horizontal_margin" android:layout_height="fill_parent" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center|right" android:id="@id/labelR2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="0.000" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center|left" android:id="@id/labelG1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="G" />
+        <View android:layout_width="@dimen/activity_horizontal_margin" android:layout_height="fill_parent" />
+        <SeekBar android:id="@id/sliderG" android:layout_width="0.0px" android:layout_height="wrap_content" android:minHeight="36.0dip" android:layout_weight="1.0" />
+        <View android:layout_width="@dimen/activity_horizontal_margin" android:layout_height="fill_parent" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center|right" android:id="@id/labelG2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="0.000" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center|left" android:id="@id/labelB1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="B" />
+        <View android:layout_width="@dimen/activity_horizontal_margin" android:layout_height="fill_parent" />
+        <SeekBar android:id="@id/sliderB" android:layout_width="0.0px" android:layout_height="wrap_content" android:minHeight="36.0dip" android:layout_weight="1.0" />
+        <View android:layout_width="@dimen/activity_horizontal_margin" android:layout_height="fill_parent" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center|right" android:id="@id/labelB2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="0.000" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:paddingTop="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/colorchecker" android:scaleType="centerInside" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/footer" android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="?android:buttonBarStyle">
+        <Button android:textColor="#ffffffff" android:id="@id/cancelButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/generic_cancel" android:layout_weight="1.0" android:onClick="onCancelClick" style="?android:buttonBarButtonStyle" />
+        <Button android:textColor="#ffffffff" android:id="@id/saveButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/generic_save" android:layout_weight="1.0" android:onClick="onSaveClick" style="?android:buttonBarButtonStyle" />
+    </LinearLayout>
+    <CheckBox android:textAppearance="?android:textAppearanceMedium" android:id="@id/auto_update" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/settings_location_follow_title" android:layout_alignParentTop="true" />
+    <fragment android:name="com.google.android.gms.maps.MapFragment" android:id="@id/map" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/footer" android:layout_below="@id/auto_update" />
+</RelativeLayout>

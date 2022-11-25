@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center|left" android:id="@id/labelSunrise1" android:layout_width="35.0pt" android:layout_height="fill_parent" android:text="@string/fade_sunrise" />
+        <View android:layout_width="@dimen/activity_horizontal_margin" android:layout_height="fill_parent" />
+        <SeekBar android:id="@id/sliderSunrise" android:layout_width="0.0px" android:layout_height="wrap_content" android:minHeight="36.0dip" android:layout_weight="1.0" />
+        <View android:layout_width="@dimen/activity_horizontal_margin" android:layout_height="fill_parent" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center|right" android:id="@id/labelSunrise2" android:layout_width="20.0pt" android:layout_height="fill_parent" android:text="000" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center|left" android:id="@id/labelSunset1" android:layout_width="35.0pt" android:layout_height="fill_parent" android:text="@string/fade_sunset" />
+        <View android:layout_width="@dimen/activity_horizontal_margin" android:layout_height="fill_parent" />
+        <SeekBar android:id="@id/sliderSunset" android:layout_width="0.0px" android:layout_height="wrap_content" android:minHeight="36.0dip" android:layout_weight="1.0" />
+        <View android:layout_width="@dimen/activity_horizontal_margin" android:layout_height="fill_parent" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center|right" android:id="@id/labelSunset2" android:layout_width="20.0pt" android:layout_height="fill_parent" android:text="000" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center|left" android:id="@id/labelSleep1" android:layout_width="35.0pt" android:layout_height="fill_parent" android:text="@string/fade_sleep" />
+        <View android:layout_width="@dimen/activity_horizontal_margin" android:layout_height="fill_parent" />
+        <SeekBar android:id="@id/sliderSleep" android:layout_width="0.0px" android:layout_height="wrap_content" android:minHeight="36.0dip" android:layout_weight="1.0" />
+        <View android:layout_width="@dimen/activity_horizontal_margin" android:layout_height="fill_parent" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center|right" android:id="@id/labelSleep2" android:layout_width="20.0pt" android:layout_height="fill_parent" android:text="000" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center|left" android:id="@id/labelSensor1" android:layout_width="35.0pt" android:layout_height="fill_parent" android:text="@string/fade_sensor" />
+        <View android:layout_width="@dimen/activity_horizontal_margin" android:layout_height="fill_parent" />
+        <SeekBar android:id="@id/sliderSensor" android:layout_width="0.0px" android:layout_height="wrap_content" android:minHeight="36.0dip" android:layout_weight="1.0" />
+        <View android:layout_width="@dimen/activity_horizontal_margin" android:layout_height="fill_parent" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center|right" android:id="@id/labelSensor2" android:layout_width="20.0pt" android:layout_height="fill_parent" android:text="000" />
+    </LinearLayout>
+</LinearLayout>
